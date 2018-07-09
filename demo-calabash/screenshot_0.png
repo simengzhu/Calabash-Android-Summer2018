@@ -1,0 +1,5 @@
+java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:718)
+	at sh.calaba.instrumentationbackend.actions.HttpServer.serve(HttpServer.java:635)
+	at sh.calaba.instrumentationbackend.actions.NanoHTTPD$HTTPSession.run(NanoHTTPD.java:487)
+	at java.lang.Thread.run(Thread.java:764)
