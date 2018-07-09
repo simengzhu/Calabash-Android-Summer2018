@@ -7,3 +7,5 @@ Running the projects:
 ```
 calabash-android run app-release.apk SCREENSHOT_VIA_USB="false"
 ```
+
+Passed tests are shown in green, while failed will cause error marked with red color. 
